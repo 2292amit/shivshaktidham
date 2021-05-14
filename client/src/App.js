@@ -1,24 +1,38 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom"; 
+import './App.css';
+import MainNavBar from './MainNavBar';
+import HomeView from './HomeView';
+import AboutView from './AboutView';
+import ContactView from './ContactView';
+import GalleryView from './GalleryView';
 
-function App() {
-  const [data, setData] = React.useState(null);
-
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Container className="p-3">
+      <MainNavBar/>
+      <Switch>
+          <Route exact path="/">
+            <HomeView/>
+          </Route>
+          <Route path="/about">
+            <AboutView/>
+          </Route>
+          <Route path="/contactus">
+            <ContactView/>
+          </Route>
+          <Route path="/gallery">
+            <GalleryView/>
+          </Route>
+        </Switch>
+    </Container>
+  </Router>
+);
 
 export default App;
