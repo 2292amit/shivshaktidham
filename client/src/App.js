@@ -12,6 +12,8 @@ import HomeView from './HomeView';
 import AboutView from './AboutView';
 import ContactView from './ContactView';
 import GalleryView from './GalleryView';
+import VideoView from './VideoView';
+import FooterView from './FooterView';
 
 const App = () => (
   <Router>
@@ -30,7 +32,11 @@ const App = () => (
           <Route path="/gallery">
             <GalleryView/>
           </Route>
+          <Route path="/video">
+            <VideoView/>
+          </Route>
         </Switch>
+        <FooterView/>
     </Container>
   </Router>
 );

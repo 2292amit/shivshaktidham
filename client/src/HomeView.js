@@ -11,8 +11,8 @@ const HomeView = ({ children }) => {
           <h1>Shiv Shakti Dham Temple</h1>
           <p>Temple is currently closed for public.</p>
           <div class="mb-3">  
-              <Button class="btn-block" href="#">Call</Button>
-              <Button class="btn-block" href="#">Direction</Button>
+              <Button class="btn-block" href="tel:11111111">Call</Button>
+              <Button class="btn-block" href="https://goo.gl/maps/h25Z7X2DFcwDEMV38"  target="_blank">Direction</Button>
               <Button class="btn-block" href="/contactus">Contact</Button>
           </div>
         </div>
