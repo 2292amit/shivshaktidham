@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 const GalleryView = ({ children }) => {
   return (
     <>
-        <Carousel>
+        <Carousel className="border rounded">
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"

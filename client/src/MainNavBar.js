@@ -11,8 +11,11 @@ const MainNavBar = ({ children }) => {
 
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand href="/">Shiv Shakti Dham</Navbar.Brand>
+      <Navbar expand="lg" className="font-weight-bold">
+        <Navbar.Brand href="/">
+          <span className="glyphicon glyphicon-equalizer" aria-hidden="true"></span>
+          ShivShakti Dham
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

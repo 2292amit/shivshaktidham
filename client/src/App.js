@@ -15,7 +15,7 @@ import GalleryView from './GalleryView';
 
 const App = () => (
   <Router>
-    <Container className="p-3">
+    <Container>
       <MainNavBar/>
       <Switch>
           <Route exact path="/">
