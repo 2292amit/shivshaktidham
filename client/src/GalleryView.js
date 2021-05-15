@@ -7,39 +7,68 @@ const GalleryView = ({ children }) => {
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            src="https://lh5.googleusercontent.com/p/AF1QipMTWHNkw8Sca9uptVz4XBwIpYHsBx4CkJpuIB9c=s965-k-no"
+            src="https://i.ibb.co/pyJwC5w/1.jpg"
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>Piece of art</h3>
-            <p>Made of stones from Rajasthan.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            src="https://lh5.googleusercontent.com/p/AF1QipMMaapmJQ8g2JGG9nrbSO88_S5otzdpffGAF1ar=w203-h114-k-no"
+            src="https://i.ibb.co/Gvft1Gx/2.jpg"
             alt="Second slide"
           />
-          <Carousel.Caption>
-            <h3>Night View</h3>
-            <p>Gets even more beautiful in evening.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://lh5.googleusercontent.com/p/AF1QipOOndo7oNJKPg2EkfoeCFAktw-q15414C4MK5WT=w203-h135-k-no"
+            src="https://i.ibb.co/30b6sHg/3.jpg"
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>Stone art</h3>
-            <p>Hundreds of beautiful stone sculptures.</p>
-          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/Jp6bYBx/4.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/Lhz7qF5/5.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/ynkK1FT/6.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/qD1dQXx/7.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/6yjr5PD/8.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://i.ibb.co/GTHC16J/9.jpg"
+            alt="Third slide"
+          />
         </Carousel.Item>
       </Carousel>
     </>
   );
 };
-
 export default GalleryView;
