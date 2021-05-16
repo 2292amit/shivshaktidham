@@ -26,7 +26,7 @@ const FooterView = ({ children }) => {
                     <p>shivshaktidhamdgr@gmail.com</p>
                   </Col>
                   <Col xs={12} sm={4} style={{textAlign: "center"}}>
-                      <SocialIcon url="https://twitter.com/jaketrent" bgColor="transparent" fgColor="white"/>
+                      <SocialIcon url="https://twitter.com/" bgColor="transparent" fgColor="white"/>
                       <SocialIcon url="https://www.facebook.com/shivshaktidhamofficial" bgColor="transparent" fgColor="white"/>
                       <SocialIcon url="https://youtube.com" bgColor="transparent" fgColor="white"/>
                       <SocialIcon url="https://instagram.com" bgColor="transparent" fgColor="white"/>
