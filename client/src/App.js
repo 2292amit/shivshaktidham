@@ -17,7 +17,7 @@ import FooterView from './FooterView';
 
 const App = () => (
   <Router>
-    <Container style={{padding:"0px"}}>
+    <Container style={{padding:"0px" , marginTop:"56px"}}>
       <MainNavBar/>
       <Switch>
           <Route exact path="/">
