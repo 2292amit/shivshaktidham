@@ -1,3 +1,7 @@
 body {
   background-color: #ea8e8e;
 }
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}

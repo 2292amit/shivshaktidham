@@ -11,8 +11,8 @@ const MainNavBar = ({ children }) => {
 
   return (
     <>
-      <Navbar expand="lg" className="font-weight-bold">
-        <Navbar.Brand href="/">
+      <Navbar expand="lg" className="font-weight-bold" variant="dark" style={{backgroundColor:"#5f5f4e", color: "red"}}>
+        <Navbar.Brand href="/" style={{ color: "#d4a537"}}>
           <span className="mr-2">
             <img src="/logo192.png" width="25" height="25" alt="" />
           </span>
@@ -21,11 +21,11 @@ const MainNavBar = ({ children }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/video">Videos</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contactus">Contact Us</Nav.Link>
+            <Nav.Link href="/" style={{ color: "#d4a537"}}>Home</Nav.Link>
+            <Nav.Link href="/gallery" style={{ color: "#d4a537"}}>Gallery</Nav.Link>
+            <Nav.Link href="/video" style={{ color: "#d4a537"}}>Videos</Nav.Link>
+            <Nav.Link href="/about"style={{ color: "#d4a537"}}>About</Nav.Link>
+            <Nav.Link href="/contactus" style={{ color: "#d4a537"}}>Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

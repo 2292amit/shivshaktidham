@@ -11,7 +11,7 @@ const HomeView = ({ children }) => {
       <GalleryView></GalleryView>
       <div class="container p-3 my-3 border rounded bg-light text-dark">
         <div class="text-center">
-          <h2>About Shiv Shakti Dham</h2>
+          <h4>About Shiv Shakti Dham</h4>
           <p>Shiv Shakti Dham is a hindu temple located in Gopalmath area of Durgapur.</p>
           <p>The temple was inaugrated on XXXX</p>
           <p>The temple is devoted to Hindu God Shiva.</p>
@@ -19,7 +19,7 @@ const HomeView = ({ children }) => {
       </div>
       <div class="container p-3 my-3 border rounded bg-light text-dark">
         <div class="text-center">
-          <h2>Explore</h2>
+          <h4>Explore</h4>
           <div class="container p-3 my-3 border rounded bg-light text-dark">
             <Row>
               <Col xs={6} sm={3}><Button class="btn-block" variant="light" href="/about"><Image src="https://i.ibb.co/sF5Mr97/13.jpg" roundedCircle fluid /><div>Mandir</div></Button></Col>
@@ -32,7 +32,7 @@ const HomeView = ({ children }) => {
       </div>
       <div class="container p-3 my-3 border rounded bg-light text-dark">
         <div class="text-center">
-          <h2>Contact</h2>
+          <h4>Contact</h4>
           <div class="container p-3 my-3 border rounded bg-light text-dark">
             <Row>
               <Col xs={4}><Button class="btn-block" href="tel:11111111">Call</Button></Col>
