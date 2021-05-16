@@ -13,7 +13,7 @@ const ContactView = ({ children }) => {
                                     <h6 class="mb-0">Email</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    xxxx@xxx.com
+                                    shivshaktidhamdgr@gmail.com
                                 </div>
                             </div>
                             <hr/>

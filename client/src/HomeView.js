@@ -3,7 +3,8 @@ import ButtonGroup from "react-bootstrap/ButtonGroup";
 import GalleryView from "./GalleryView";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image"
+import Image from "react-bootstrap/Image";
+import { FaPhoneAlt, FaDirections, FaMailBulk } from 'react-icons/fa';
 
 const HomeView = ({ children }) => {
   return (
@@ -35,9 +36,9 @@ const HomeView = ({ children }) => {
           <h4>Contact</h4>
           <div class="container p-3 my-3 border rounded bg-light text-dark">
             <Row>
-              <Col xs={4}><Button class="btn-block" href="tel:11111111">Call</Button></Col>
-              <Col xs={4}><Button class="btn-block" href="https://goo.gl/maps/h25Z7X2DFcwDEMV38"  target="_blank">Direction</Button></Col>
-              <Col xs={4}><Button class="btn-block" href="/contactus">Contact</Button></Col>
+              <Col xs={4}><Button class="btn-block" href="tel:11111111"><FaPhoneAlt /></Button></Col>
+              <Col xs={4}><Button class="btn-block" href="https://goo.gl/maps/h25Z7X2DFcwDEMV38"  target="_blank"><FaDirections/></Button></Col>
+              <Col xs={4}><Button class="btn-block" href="/contactus"><FaMailBulk /></Button></Col>
             </Row>
           </div>
         </div>
