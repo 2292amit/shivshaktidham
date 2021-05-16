@@ -14,7 +14,7 @@ const MainNavBar = ({ children }) => {
       <Navbar expand="lg" className="font-weight-bold" variant="dark" fixed="top" style={{backgroundColor:"#301934"}}>
         <Navbar.Brand href="/" style={{ color: "#d4a537"}}>
           <span className="mr-2">
-            <img src="/logo192.png" width="25" height="25" alt="" />
+            <img src="/logo192.png" width="30" height="30" alt="" style={{paddingBottom:"5px"}} />
           </span>
           ShivShakti Dham
         </Navbar.Brand>
