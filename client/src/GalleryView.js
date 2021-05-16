@@ -3,15 +3,15 @@ import Carousel from 'react-bootstrap/Carousel'
 const GalleryView = ({ children }) => {
   return (
     <>
-        <Carousel className="border rounded">
-        <Carousel.Item interval={1000}>
+        <Carousel className="border rounded" fade="true" indicators="false" controls="false">
+        <Carousel.Item >
           <img
             className="d-block w-100"
             src="https://i.ibb.co/pyJwC5w/1.jpg"
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://i.ibb.co/Gvft1Gx/2.jpg"
