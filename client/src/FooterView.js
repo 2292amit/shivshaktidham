@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav"
 const FooterView = ({ children }) => {
     return (
       <>
-        <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div className="navbar navbar-inverse navbar-fixed-bottom">
             <div className="container">
             <Nav className="mr-auto">
                 <p className="navbar-text font-italic">Connect with us:  </p>
