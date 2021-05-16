@@ -20,6 +20,16 @@ const HomeView = ({ children }) => {
       </div>
       <div class="container p-3 my-3 bg-light text-dark">
         <div class="text-center">
+          <h4>Timings</h4>
+          <h5>Visiting hours</h5>
+          <p>Monday to Sunday 8 am to  12 am, 4 pm to 7 pm</p>
+          <h5>Aaarti</h5>
+          <p>11 am and 6 pm</p>
+          <p>Temperorily closed due to Covid-19 guidelines.</p>
+        </div>
+      </div>
+      <div class="container p-3 my-3 bg-light text-dark">
+        <div class="text-center">
           <h4>Explore</h4>
           <div class="container p-3 my-3 bg-light text-dark">
             <Row>
