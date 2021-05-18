@@ -13,9 +13,9 @@ const HomeView = ({ children }) => {
       <div class="container p-3 my-3 bg-light text-dark">
         <div class="text-center">
           <h4>About Shiv Shakti Dham</h4>
-          <p>Shiv Shakti Dham is a hindu temple located in Gopalmath area of Durgapur.</p>
-          <p>The temple was inaugrated on XXXX</p>
-          <p>The temple is devoted to Hindu God Shiva.</p>
+          <p>The Shivshakti Dham Temple is open to tourists for 24 hours. Hence, one can visit this mystical place at any time of the year and at any time of the day. On Mondays, special Shiv Aartis take place every 2 hours and the Somvaar ka Tyohar is celebrated.  </p>
+          <p>In the first three months of 2021, the temple has already been visited by XXXXX people.</p>
+          <p>It is a famous Shiva Temple dedicated to the Hindu deity Lord Shiva and a popular spiritual destination.</p>
         </div>
       </div>
       <div class="container p-3 my-3 bg-light text-dark">
